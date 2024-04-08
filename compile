@@ -1,0 +1,9 @@
+
+# Compile and link
+gcc -ansi -c main.c -o main.o
+gcc -ansi -c task1.c -o task1.o
+gcc -ansi -c task2.c -o task2.o
+gcc -ansi -c msString.c -o msString.o
+
+gcc -ansi -o coursework main.o msString.o task1.o task2.o
+
